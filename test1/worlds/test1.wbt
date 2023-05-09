@@ -1,0 +1,432 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/UnevenTerrain.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/Auditorium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/road/protos/CurvedRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/road/protos/RoadIntersection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/ResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/road/protos/Road.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/Barn.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/robotstadium/protos/RobotstadiumSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/OldResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/BungalowStyleHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/Church.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/ComposedHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/FastFoodRestaurant.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/ModernHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/buildings/protos/HouseWithGarage.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.27969610256142236 -0.01807615098049398 0.9599184043332436 3.265518853173827
+  position 1012.5461264085077 334.3739383339464 462.80500304328126
+  follow "sample2"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+UnevenTerrain {
+  translation 0 0 -1
+  name "ground"
+  size 2000 2000 0
+}
+OldResidentialBuilding {
+  translation 397.258 91.022 0
+  rotation 0 0 1 -1.0471996938995747
+}
+RobotstadiumSoccerField {
+  translation 271 -20 0
+  postRadius 30
+}
+Road {
+  translation 185 175 0
+  name "road(7)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    70 0 0
+    74 2 0
+    123 20 0
+  ]
+}
+Road {
+  translation 300 40 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(6)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    50 0 0
+    50 -4 0
+    72 -46 0
+  ]
+}
+Barn {
+  translation 345.532 79.1872 0
+  rotation 0 0 1 -1.0472003061004251
+  scale 3
+}
+Road {
+  translation -15 175 0
+  name "road(1)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -9 0 0
+    -12 -1 0
+    -106 -25 0
+  ]
+}
+StraightRoadSegment {
+  translation 0 20 0
+  name "sample1"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+}
+StraightRoadSegment {
+  translation 0 40 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(2)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  length 120
+}
+StraightRoadSegment {
+  translation -160 40 0
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  length 800
+}
+Auditorium {
+  translation 10.55 -7.56 0
+}
+CurvedRoadSegment {
+  name "sample2"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+}
+RoadIntersection {
+  translation 0 0 22
+  name "sample3"
+  roadsWidth 20
+  startRoadBorder FALSE
+}
+RoadIntersection {
+  translation 0 175 0
+  rotation 0 0 1 0.7853996938995746
+  name "intersetion"
+  roadsWidth 20
+  startRoadBorder FALSE
+}
+ResidentialBuilding {
+  translation 40.51 96.48 0
+  name "sushe"
+}
+ResidentialBuilding {
+  translation 80.09 96.48 0
+  name "sushe(1)"
+}
+ResidentialBuilding {
+  translation 140.62 96.48 0
+  name "sushe(2)"
+}
+ResidentialBuilding {
+  translation -37.01 113.19 0
+  name "sushe(3)"
+}
+ResidentialBuilding {
+  translation -78.7 104.18 0
+  name "sushe(4)"
+}
+ResidentialBuilding {
+  translation -117.81 96.48 0
+  name "sushe(5)"
+}
+Road {
+  translation 0 190 0
+  rotation 0 0 1 -1.5707996938995747
+  name "road(3)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -70 0 0
+    -73 -6 0
+    -76 -17 0
+    -76 -21 0
+    -76 -120 0
+  ]
+}
+ResidentialBuilding {
+  translation -112.98 332.42 0
+  name "sushe(6)"
+}
+ResidentialBuilding {
+  translation -67.13 330.45 0
+  name "sushe(7)"
+}
+StraightRoadSegment {
+  translation 15 175 0
+  name "road(4)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  length 140
+}
+RoadIntersection {
+  translation 170 175 0
+  rotation 0 0 1 0.7853996938995746
+  name "intersetion(1)"
+  roadsWidth 20
+  startRoadBorder FALSE
+}
+StraightRoadSegment {
+  translation 170 160 0
+  rotation 0 0 1 -1.5707996938995747
+  name "road(5)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  length 250
+}
+Auditorium {
+  translation 76.94 -5.14 0
+  name "auditorium(1)"
+}
+Auditorium {
+  translation -53.42 -5.61 0
+  name "auditorium(2)"
+}
+Auditorium {
+  translation 11.58 -67.67 0
+  name "auditorium(3)"
+}
+Auditorium {
+  translation 84.12 -75.23 0
+  name "auditorium(4)"
+}
+Auditorium {
+  translation -51.54 -68.98 0
+  name "auditorium(5)"
+}
+Auditorium {
+  translation -114.09 -77.04 0
+  name "auditorium(6)"
+}
+Auditorium {
+  translation -114.65 -15.51 0
+  name "auditorium(7)"
+}
+ResidentialBuilding {
+  translation 249.19 96.48 0
+  name "sushe(8)"
+}
+ResidentialBuilding {
+  translation 210.38 96.48 0
+  name "sushe(9)"
+}
+Auditorium {
+  translation 297.99 135.86 0
+  name "auditorium(8)"
+}
+Road {
+  translation 386 40 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(8)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    12 0 0
+    13 1 0
+    18 3 0
+    168 78 0
+    172 79 0
+    524 168 0
+  ]
+}
+OldResidentialBuilding {
+  translation 422.075 103.622 0
+  rotation 0 0 1 -1.5707996938995747
+  name "residential building(1)"
+}
+OldResidentialBuilding {
+  translation 422.027 70.3171 0
+  rotation 0 0 1 -1.5707996938995747
+  name "residential building(2)"
+}
+Road {
+  translation 376 133 0
+  name "road(9)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    -20 -15 0
+    -4 -3 0
+    0 0 0
+    70 0 0
+    72 4 0
+    73 8 0
+    74 15 0
+    74 78 0
+  ]
+}
+OldResidentialBuilding {
+  translation 367.255 171.512 0
+  rotation 0 0 1 -1.5707996938995747
+  name "residential building(3)"
+}
+OldResidentialBuilding {
+  translation 395.715 173.482 0
+  rotation 0 0 1 -1.5707996938995747
+  name "residential building(4)"
+}
+OldResidentialBuilding {
+  translation 420.745 173.482 0
+  rotation 0 0 1 -1.5707996938995747
+  name "residential building(5)"
+}
+ResidentialBuilding {
+  translation 341.145 275.923 0
+  rotation 0 0 1 0.1308996938995747
+  name "sushe(10)"
+}
+ResidentialBuilding {
+  translation 451.54 283.14 0
+  name "sushe(11)"
+}
+ResidentialBuilding {
+  translation 419.89 285.05 0
+  name "sushe(12)"
+}
+ResidentialBuilding {
+  translation 375.41 279.62 0
+  rotation 0 0 1 0.1308996938995747
+  name "sushe(13)"
+}
+Road {
+  translation 357 212 0
+  name "road(10)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    -36 -13 0
+    -4 -2 0
+    0 0 0
+    140 0 0
+  ]
+}
+Road {
+  translation 357 350 0
+  name "road(11)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    -80 -13 0
+    -4 -2 0
+    0 0 0
+    140 0 0
+  ]
+}
+Road {
+  translation 500 0 0
+  rotation 0 0 1 1.5707996938995747
+  name "road(12)"
+  width 20
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    400 0 0
+  ]
+}
+BungalowStyleHouse {
+  translation 220.62 421.544 0
+  rotation 0 0 1 0.2617996938995747
+}
+BungalowStyleHouse {
+  translation 214.986 442.589 0
+  rotation 0 0 1 0.2617996938995747
+  name "bungalow style house(1)"
+}
+BungalowStyleHouse {
+  translation 282.245 435.516 0
+  rotation 0 0 1 0.2617996938995747
+  name "bungalow style house(2)"
+}
+BungalowStyleHouse {
+  translation 276.838 454.477 0
+  rotation 0 0 1 0.2617996938995747
+  name "bungalow style house(3)"
+}
+Church {
+  translation 195.817 532.201 0
+  rotation 0 0 1 0.2617996938995747
+}
+Church {
+  translation 246.075 563.914 0
+  rotation 0 0 1 0.2617996938995747
+  name "church(1)"
+}
+ComposedHouse {
+  translation 207.166 507.045 0
+  rotation 0 0 1 0.2617996938995747
+}
+ComposedHouse {
+  translation 278.689 532.133 0
+  rotation 0 0 1 0.2617996938995747
+  name "composed house(1)"
+}
+FastFoodRestaurant {
+  translation 193.196 554.872 0
+  rotation 0 0 1 0.2617996938995747
+  height 6
+  length 18
+  width 17
+}
+FastFoodRestaurant {
+  translation 178.627 513.843 0
+  rotation 0 0 1 0.2617996938995747
+  name "fast food restaurant(1)"
+  height 6
+  length 18
+  width 17
+}
+ModernHouse {
+  translation 255.614 548.75 0
+  rotation 0 0 1 0.2617996938995747
+}
+ModernHouse {
+  translation 168.017 539.776 0
+  rotation 0 0 1 0.2617996938995747
+  name "modern house(1)"
+}
+HouseWithGarage {
+  translation 257.55 527.793 0
+  rotation 0 0 1 0.2617996938995747
+}
+HouseWithGarage {
+  translation 272.278 565.703 0
+  rotation 0 0 1 0.2617996938995747
+  name "house with garage(1)"
+}
